@@ -41,4 +41,5 @@ func main() {
 
 	// Run the server
 	r.Run(":8080")
+	print("hehehihi")
 }
