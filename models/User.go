@@ -12,6 +12,7 @@ const (
 type User struct {
 	gorm.Model
 	Name     string
+	Password string
 	UserID   uint   `gorm:"unique"`
 	Email    string `gorm:"primaryKey"`
 	Balance  float64
