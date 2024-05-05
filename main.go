@@ -1,9 +1,9 @@
 package main
 
 import (
-	"log"
 	"fproj/models"
 	"fproj/utils"
+	"log"
 
 	"fproj/controllers"
 	"fproj/routes"
@@ -14,6 +14,7 @@ import (
 )
 
 func main() {
+	print("SUKA BYLIAT")//SUKA BYLIAT проверка связи сука
 	utils.Setenv()
 	// Create a new gin instance
 	r := gin.Default()
